@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Georgia, serif; /* Updated font to Georgia */
-            background-color: #f4f4f4;
+            background-color: #faf8e9;
             margin: 0;
             padding: 0;
         }
@@ -19,8 +19,17 @@
             text-align: center;
             position: relative;
         }
-        header h1 {CatJoker.jpg
+        header h1 {
             margin: 10px 0;
+        }
+        header img {
+            max-width: 100px; /* Adjust the size as needed */
+            height: auto;
+            position: absolute;
+            top: 10px;
+        }
+        header .left-img {
+            left: 20px;
         }
         header .right-img {
             right: 20px;
@@ -43,7 +52,7 @@
             background-color: #eee;
             padding: 5px 10px;
             border-radius: 4px;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: Georgia, serif; /* Updated font to Georgia */
         }
         footer {
             background-color: #333;
@@ -59,8 +68,10 @@
 <body>
 
 <header>
+    <img src="CatJoker.jpg" alt="Left Image" class="left-img">
     <h1>PHY/MAT 131 Course - My Coding Projects</h1>
     <p>Welcome to my collection of coding projects from the PHY/MAT 131 course!</p>
+    <img src="CatJoker.2" alt="Right Image" class="right-img">
 </header>
 
 <section>
