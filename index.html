@@ -63,47 +63,9 @@
     <div class="project">
         <h2>Project 1: Simple Numerical Integration</h2>
         <p>In this project, I implemented a basic numerical integration method to approximate the area under a curve using the Trapezoidal Rule.</p>
-        <pre><code>
-# Python code example for drawing a Turtle
-
-        </code></pre>
+        <p><a href="https://trinket.io/your-trinket-url-1" target="_blank">View the project on Trinket</a></p>
     </div>
 
     <div class="project">
         <h2>Project 2: Solving Differential Equations</h2>
-        <p>This project focused on solving first-order differential equations using the Euler method and comparing the results with exact solutions.</p>
-        <pre><code>
-# Python code example for Solving Differential Equations
-import numpy as np
-import matplotlib.pyplot as plt
-
-def euler_method(f, y0, t0, tf, dt):
-    t = np.arange(t0, tf, dt)
-    y = np.zeros(len(t))
-    y[0] = y0
-    for i in range(1, len(t)):
-        y[i] = y[i-1] + f(t[i-1], y[i-1]) * dt
-    return t, y
-
-def dydt(t, y):
-    return -2 * y + t
-
-# Initial conditions
-t0, tf, y0, dt = 0, 5, 1, 0.1
-t, y = euler_method(dydt, y0, t0, tf, dt)
-
-plt.plot(t, y)
-plt.xlabel('t')
-plt.ylabel('y')
-plt.title('Solution of dy/dt = -2y + t')
-plt.show()
-        </code></pre>
-    </div>
-</section>
-
-<footer>
-    <p>&copy; 2025 - PHY/MAT 131 Coding Projects</p>
-</footer>
-
-</body>
-</html>
+        <p>This project focused on solving first-order differential equations using the Euler method and comparing ▋
